@@ -59,7 +59,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('xdg-open https://facebook.com/groups/554714119911648/')
+#os.system('xdg-open https://facebook.com/groups/554714119911648/')
 logo =("""\033[0;92m
 
  __          _        __  _____  ___ 
@@ -206,9 +206,6 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             headers = {'authority': 'mbasic.facebook.com',
-    :method: GET
-    :path: /
-    :scheme: https
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9,bn-BD;q=0.8,bn;q=0.7',
     'cache-control': 'max-age=0',
